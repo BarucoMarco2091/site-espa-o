@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:ital,wght@0,200;1,200;1,300&display=swap');
+
+header {
+    background-color:rgb(62, 62, 112);
+}
+header img {
+    width: 70px;
+    height: 70px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    font-size: 20px;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #ff0000;
+}
+main {
+    background-color: #fff;
+}
+#section-galeria img {
+   height:300px;
+   border-radius: 10px;
+}
+#section-galeria .card-group {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+}
+#section-galeria .card button {
+    background-color: #2e80fc;
+    border-radius: 20px;
+    padding: 5px 0;
+    text-align: center;
+}
+#section-espaço img {
+    height:300px;
+    border-radius: 10px;
+ }
+ #section-espaço .card-group {
+     margin: 5px;
+     border: 1px solid #ccc;
+     border-radius: 10px; 
+     text-align: center;
+     font-size: 20px;
+     justify-content: center;
+ }
+footer {
+    background-color: rgb(62, 62, 112);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+footer img {
+    height: 40px;
+    width: 40px;
+    
+}
+
